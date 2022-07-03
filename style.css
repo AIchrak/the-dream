@@ -1,6 +1,89 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
 }
-.h1{
-    color:plum;
+.container{
+    display: grid;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+    overflow: auto;
+    width: 500px;
+    min-height: 400px;
 }
+h1{
+    color:orange;
+    text-align: center;
+}
+.form{
+    justify-items: center;
+    text-align: center;
+}
+input[class*="convert"]{
+    border: 2px solid black;
+    background-color: orange;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input[class*="button"]{
+    border: 2px solid orange;
+    background-color: black;
+    color: orange;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.box{
+    border: 2px solid black;
+    padding: 5px;
+}
+span{
+    margin-bottom: 50px;
+}
+/*.image{
+    position: absolute;
+    float: right;
+    top:0%;
+    right: 0%;
+}*/
+.image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container{
+        margin-top: 30px;
+    }
+   
+}
+@media only screen and (max-width: 780px) {
+    .image{
+        display: none;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 781px ) and (max-width: 1200px ) {
+    .page{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .container{
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 801px ){
+    .page{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+

@@ -1,6 +1,4 @@
 # the-dream
-## Demo Page:
-ongoing...
 ## Instructions:
 ### Must haves:
 - Pick your next travel destination and check the exchange rate: local currency / Euros.
